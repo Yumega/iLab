@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         链接替换为txtdot
 // @namespace    http://tampermonkey.net/
-// @version      25.11.11
+// @version      25.11.19
 // @description  替换新闻站链接为代理地址，仅替换文章页（路径层级≥2），排除视频/列表等非文章链接
 // @match        https://*.ifeng.com/*
 // @match        https://*.qq.com/*
@@ -19,6 +19,7 @@
 // @match        https://*.nbcnews.com/*
 // @match        https://*.yahoo.com/*
 // @match        https://*.zaobao.com/*
+// @match        https://*.nytimes.com/*
 // @grant        none
 // ==/UserScript==
 
@@ -38,6 +39,7 @@
         'bbc.com',
         'cnn.com',
         'nbcnews.com',
+        'nytimes.com',
         'channelnewsasia.com',
         'foxnews.com',
         'theguardian.com',
