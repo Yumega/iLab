@@ -25,11 +25,11 @@ http://192.168.11.1:35455/youtube/gCNeDWCI0vo
 http://192.168.11.1:35455/youtube/LuKwFajn37U
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/bbc/bbc-wn_m.png" group-title="NEWS",BBC新闻
 http://192.168.11.1:7777/xumo/watch/99951298
-#https://fl25.moveonjoy.com/BBC_WORLD_NEWS/index.m3u8
+#https://fl1.moveonjoy.com/BBC_WORLD_NEWS/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/refs/heads/master/media/logo/news/msnbc.png" group-title="NEWS",MSNBC
-https://fl25.moveonjoy.com/MSNBC/index.m3u8
+https://fl1.moveonjoy.com/MSNBC/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/cnnus.png" group-title="NEWS",CNN美国
-https://fl25.moveonjoy.com/CNN/index.m3u8
+https://fl1.moveonjoy.com/CNN/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/refs/heads/master/media/logo/news/foxnews.png" group-title="NEWS",FOX新闻
-https://fl25.moveonjoy.com/FOX_NEWS_CHANNEL/tracks-v1a1/mono.m3u8
+https://fl1.moveonjoy.com/FOX_NEWS_CHANNEL/tracks-v1a1/mono.m3u8
 #https://stream.livenewsplay.com:9443/hls/foxnews/foxsd.m3u8
