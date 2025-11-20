@@ -60,6 +60,8 @@
         /:\/\/[^/]*cnn\.com\/.*\/video\//,
         /:\/\/[^/]*theguardian\.com\/.*\/gallery\//,
         /:\/\/[^/]*foxnews\.com\/video\//,
+        /:\/\/[^/]*nbcnews\.com\/news\/(china|africa|asia|europe)\//,
+        /:\/\/[^/]*nbcnews\.com\/world\/russia-ukraine-news\//,
         /:\/\/[^/]*nbcnews\.com\/video\//,
         /:\/\/[^/]*nbcnews\.com\/.*\/video\//,
         /:\/\/[^/]*euronews\.com\/tag\//,
@@ -67,9 +69,7 @@
         /:\/\/podcasts\.euronews\.com\//,
         /:\/\/news\.sky\.com\/video\//,
         /:\/\/www\.foxnews\.com\/category\//,
-        /:\/\/[^/]*nbcnews\.com\/news\/(china|africa|asia|europe)\//,
         /:\/\/[^/]*yahoo\.com\/news\/(us|politics|science|world|weather-news)\//,
-        /:\/\/[^/]*nbcnews\.com\/world\/russia-ukraine-news\//,
         /:\/\/[^/]*yahoo\.com\/guides\/originals\//,
         /:\/\/www\.bbc\.com\/news\/videos\//
     ];
