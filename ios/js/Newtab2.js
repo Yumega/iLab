@@ -1,10 +1,11 @@
 // ==UserScript==
 // @name         在新标签页打开链接2.0
-// @version      25.10.3
+// @version      25.11.20
 // @description  Make all links open in a new tab
 // @author       Max
-// @match        *://*.scmp.com/*   
-// @match        https://edition.cnn.com/*/live-news/*  
+// @match        *://*.scmp.com/*
+// @match        https://edition.cnn.com/*
+// @match        https://www.nbcnews.com/* 
 // @match        https://www.google.com/search?*  
 // @grant        none
 // @updateURL    https://raw.githubusercontent.com/Yumega/max/refs/heads/master/ios/js/Newtab2.js
