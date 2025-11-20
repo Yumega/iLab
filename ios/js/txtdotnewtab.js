@@ -67,7 +67,9 @@
         /:\/\/podcasts\.euronews\.com\//,
         /:\/\/news\.sky\.com\/video\//,
         /:\/\/www\.foxnews\.com\/category\//,
+        /:\/\/[^/]*nbcnews\.com\/news\/(china|africa|asia|europe)\//,
         /:\/\/[^/]*yahoo\.com\/news\/(us|politics|science|world|weather-news)\//,
+        /:\/\/[^/]*nbcnews\.com\/world\/russia-ukraine-news\//,
         /:\/\/[^/]*yahoo\.com\/guides\/originals\//,
         /:\/\/www\.bbc\.com\/news\/videos\//
     ];
