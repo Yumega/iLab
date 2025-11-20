@@ -4,6 +4,7 @@
 // @description  Make all links open in a new tab
 // @author       Max
 // @match        *://*.scmp.com/*   
+// @match        https://edition.cnn.com/*/live-news/*  
 // @match        https://www.google.com/search?*  
 // @grant        none
 // @updateURL    https://raw.githubusercontent.com/Yumega/max/refs/heads/master/ios/js/Newtab2.js
