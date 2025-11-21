@@ -10,6 +10,7 @@
 ! #iplark
 iplark.com##a[rel="nofollow sponsored"]
 iplark.com##div[id^="irkezdr"]
+iplark.com##a[rel="sponsored nofollow"]
 
 ! #VOX
 www.vox.com##.tab-bar-fixed.c-tab-bar
