@@ -38,15 +38,10 @@ www.cnn.com##.SocialBar__isShare.SpecialArticle__socialTop.SocialBar__component
 www.cnn.com##.SocialBar__isShare.SpecialArticle__widthStandard.SpecialArticle__socialBottom.SocialBar__component
 www.cnn.com##.Showcase__mediaWrapper
 www.cnn.com##.Showcase__component
-www.cnn.com##div.hFujui.Grid-sc-1kcyc0j-0:nth-of-type(2)
 www.cnn.com###footer-nav-container
 
 ! #谷歌YOUTUBE
 @@||youtube.com^$script,domain=m.youtube.com
-google.com.tw###stUuGf > div > div.FAVrq.VDgVie.it9gVe.gdwOPe.mB14jb.eofmDb:last-child > div.uysxde.L5bprf
-google.com###stUuGf > div > div.vSyRff.VDgVie.kqLqDd.GJyMZe.SNco2.vKW4md:last-child > div.jnyxRd.TpRPV
-gemini.google.com##.ng-tns-c1791137076-1.gmat-caption
-moviefone.com###content-wrapper > div.mf-adsense-leaderboard.mf-adsense-mobile-leaderboard:first-child
 
 ! #凤凰网
 !#暂时放行 ||*.*^$script,domain=ifeng.com
@@ -74,26 +69,7 @@ news.ifeng.com##.index_select_share_-JwH0
 news.ifeng.com##.index_bottom_box_CCgoj
 i.ifeng.com###root > div.index_bottom_box_CCgoj:nth-child(3)
 tech.ifeng.com###root > div.index_bottom_box_CCgoj:nth-child(3)
-i.ifeng.com###root > div.index_main_0YbAI:nth-child(2) > div.index_content_phGGj > div.index_content_lfS9V:first-child > div.index_link_wek7z:nth-child(9)
 i.ifeng.com###root > section.index_fixSlide_g93A-:nth-child(34)
-
-! #必应
-www.bing.com###b-scopeListItem-convups
-www.bing.com###b_pag_chat_btn_container
-www.bing.com###b_results > li.b_ans
-
-! #英国卫报
-www.theguardian.com##header > .dcr-1xdhyk6
-www.theguardian.com##.dcr-173mewl
-www.theguardian.com##.dcr-1xyi04h
-www.theguardian.com##.header-top-nav__cta-bar
-www.theguardian.com##.immersive-header-container
-www.theguardian.com##.js-most-popular-footer.fc-container--has-toggle.fc-container > .fc-container__inner
-www.theguardian.com##.u-cf.l-footer
-www.theguardian.com##.dcr-1d5d3o3 > gu-island
-www.theguardian.com##.remote-banner.site-message--banner
-www.theguardian.com##.header-top-nav__logo
-www.theguardian.com##.header-top-nav__full-width
 
 ! #新浪微博
 video.h5.weibo.cn##footer
@@ -112,8 +88,6 @@ news.sina.cn##.j_wbrecommend_wrap.j_article_relevent.s_card
 pan.xunlei.com##.openMobileXunlei.td-button
 pan.xunlei.com##.client-download
 pan.xunlei.com##.search-in-app
-pan.xunlei.com###__layout > div > div > div.pan-disk-mb > div:first-child > div.aside.show:nth-child(3) > div.aside-inner > div.aside-bottom:last-child > div.aside-bottom__act-bar:first-child
-pan.xunlei.com###__layout > div > div > div.pan-disk-mb > div:first-child > div:first-child > div.header:first-child > div.login:last-child > button.td-button.openMobileXunlei
 
 ! #TMDB
 www.themoviedb.org##.ott_item
@@ -133,31 +107,32 @@ pincong.rocks##div:style(background-image: none !important)
 pincong.rocks###aw-ajax-box > div.modal.fade.alert-box.aw-tips-box.in > div.modal-dialog > div.modal-content
 
 ! #维基百科
-zh.m.wikipedia.org###page-actions-edit
-zh.m.wikipedia.org##.mw-editsection
-zh.m.wikipedia.org###scrollUpButton-zhwiki
-zh.m.wikipedia.org###scrollDownButton-zhwiki
-zh.m.wikipedia.org##.view-border-box.cleanup
-zh.m.wikipedia.org##.noprint
-zh.m.wikipedia.org##.Template-Fact.noprint
-zh.m.wikipedia.org##sup.Inline-Template.noprint > [href="/wiki/Wikipedia:%E5%8F%AF%E4%BE%9B%E6%9F%A5%E8%AD%89"]
-zh.m.wikipedia.org##sup.noprint
-zh.m.wikipedia.org###bluedeck_ding
-zh.m.wikipedia.org##.ambox
-zh.m.wikipedia.org##.reference
-zh.m.wikipedia.org##.footer-content.post-content
-zh.m.wikipedia.org###asn-dismissable-notice
+wikipedia.org###siteNotice
+wikipedia.org##td.mbox-text
+wikipedia.org###page-actions-edit
+wikipedia.org##.mw-editsection
+wikipedia.org###scrollUpButton-zhwiki
+wikipedia.org###scrollDownButton-zhwiki
+wikipedia.org##.view-border-box.cleanup
+wikipedia.org##.noprint
+wikipedia.org##.Template-Fact.noprint
+wikipedia.org##sup.Inline-Template.noprint > [href="/wiki/Wikipedia:%E5%8F%AF%E4%BE%9B%E6%9F%A5%E8%AD%89"]
+wikipedia.org##sup.noprint
+wikipedia.org###bluedeck_ding
+wikipedia.org##.ambox
+wikipedia.org##.reference
+wikipedia.org##.footer-content.post-content
+wikipedia.org###asn-dismissable-notice
 
 ! #it之家
-m.ithome.com##div.index-box:nth-child(2) > div.fixed-btn:last-child
-m.ithome.com##div.index-box:nth-child(2) > div.fixed-btn:last-child > a.open-app-a:last-child > button.open-app
-m.ithome.com##div.open-app-banner:last-child
-m.ithome.com##.footer
-m.ithome.com##.hot-app
-m.ithome.com##.relevant-news
-m.ithome.com##.grade
-m.ithome.com##.go-top
-m.ithome.com##.news-footer
+ithome.com##div.open-app-banner
+ithome.com##.open-app
+ithome.com##.footer
+ithome.com##.hot-app
+ithome.com##.relevant-news
+ithome.com##.grade
+ithome.com##.go-top
+ithome.com##.news-footer
 
 ! #简书
 ||*.*^$script,domain=jianshu.com
@@ -237,3 +212,21 @@ www.ghacks.net###site-footer
 www.ghacks.net###post-author
 www.ghacks.net##.pt--40.mt--40.border--top--gray.the_related_part
 www.ghacks.net##.snippet-type-10
+
+! #必应
+www.bing.com###b-scopeListItem-convups
+www.bing.com###b_pag_chat_btn_container
+www.bing.com###b_results > li.b_ans
+
+! #英国卫报
+www.theguardian.com##header > .dcr-1xdhyk6
+www.theguardian.com##.dcr-173mewl
+www.theguardian.com##.dcr-1xyi04h
+www.theguardian.com##.header-top-nav__cta-bar
+www.theguardian.com##.immersive-header-container
+www.theguardian.com##.js-most-popular-footer.fc-container--has-toggle.fc-container > .fc-container__inner
+www.theguardian.com##.u-cf.l-footer
+www.theguardian.com##.dcr-1d5d3o3 > gu-island
+www.theguardian.com##.remote-banner.site-message--banner
+www.theguardian.com##.header-top-nav__logo
+www.theguardian.com##.header-top-nav__full-width
