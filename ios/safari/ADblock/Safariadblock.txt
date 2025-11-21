@@ -1,7 +1,7 @@
 ! Title: Safari自定义过滤
 
 ! #拦截脚本
-||*.*^$script,domain=3g.163
+||*.*^$script,domain=3g.163.com
 ||*.*^$script,domain=theage.com.au
 ||*.*^$script,domain=nbcnews.com
 ||*.*^$script,domain=aljazeera.com
@@ -165,11 +165,10 @@ guancha.cn##section.fengwenHot > .newTitleMain
 guancha.cn##div.bottomBtn:nth-of-type(5)
 
 ! #法国24
-||france24.com^*/_ws/urgent
 ||*.*^$script,domain=france24.com
 @@||france24.com^$script,domain=france24.com
 @@||youtube.com^$script,domain=france24.com
-www.france24.com##.t-content__tags
+france24.com##.t-content__tags
 www.france24.com##.t-content__related
 www.france24.com##.t-content__list-content
 www.france24.com##.t-content__shares
