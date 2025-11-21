@@ -23,16 +23,8 @@ yahoo.com##div:has-text("Advertisement")
 
 ! #福克斯新闻
 ||*.*^$script,domain=foxnews.com
-foxnews.com##.ad-container.mobile.ad-h-250.ad-w-300
-! #deepnewz
-deepnewz.com##.text-center.p-8.space-y-4.items-center.flex-col.flex.relative
-! #CNA亚洲新闻
-channelnewsasia.com##.text-long > .newsletter-widget-subscription-form
-
-! #BBC
-bbc.com##.ejnx8uh0.ssrcss-3esohe-GlobalFooter
-bbc.com##.e19b3odl1.ssrcss-unpyev-Navigation
-
+foxnews.com##.ad-container
+foxnews.com##.pre-content
 ! #CNN
 cnn.com##button#headerSubscribeButton
 cnn.com##.SocialBar__isShare.SpecialArticle__socialTop.SocialBar__component
@@ -40,6 +32,11 @@ cnn.com##.SocialBar__isShare.SpecialArticle__widthStandard.SpecialArticle__socia
 cnn.com##.Showcase__mediaWrapper
 cnn.com##.Showcase__component
 cnn.com###footer-nav-container
+
+! #CNA亚洲新闻
+channelnewsasia.com##.newsletter-widget-subscription-form
+! #BBC
+bbc.com##[data-testid="main-footer"]
 
 ! #谷歌YOUTUBE
 @@||youtube.com^$script,domain=m.youtube.com
