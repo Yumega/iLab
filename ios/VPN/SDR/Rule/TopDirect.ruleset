@@ -23,6 +23,7 @@ DOMAIN,captive.apple.com
 DOMAIN-SUFFIX,jjcruises.com
 DOMAIN-SUFFIX,portablesubmarines.com
 DOMAIN-SUFFIX,cloudflare-ech.com
+DOMAIN-SUFFIX,iplark.com
 
 #wise
 #DOMAIN-SUFFIX,cloudfront.net
