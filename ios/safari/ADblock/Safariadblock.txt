@@ -7,6 +7,10 @@
 ||*.*^$script,domain=aljazeera.com
 ||*.*^$script,domain=sbs.com.au
 
+! #iplark
+iplark.com##a[rel="nofollow sponsored"]
+iplark.com##div[id^="irkezdr"]
+
 ! #福克斯新闻
 ||*.*^$script,domain=foxnews.com
 foxnews.com##.ad-container.mobile.ad-h-250.ad-w-300
