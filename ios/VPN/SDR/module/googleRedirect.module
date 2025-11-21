@@ -1,0 +1,9 @@
+#!name=谷歌中国重定向
+#!desc=谷歌中国转到谷歌全球
+[URL Rewrite]
+^https?://(www\.)?google\.cn(\/.*)?$ https://www.google.com$2 302
+^https?://(www\.)?g\.cn(\/.*)?$ https://www.google.com$2 302
+^https?://(www\.)?google\.com\.hk(\/.*)?$ https://www.google.com$2 302
+
+[MITM]
+hostname = %APPEND% *.google.cn, *.g.cn, *.google.com.hk
