@@ -59,6 +59,8 @@ ifeng.com##div[class^="index_ad_box_"]
 ifeng.com##div[class^="index_copyRight_"]
 ifeng.com##[class^="index_callUpBox_"]
 ifeng.com##.detailPic
+ifeng.com##html,body:style(background:none !important)
+ifeng.com##html,body:style(background:none !important)
 
 ! #新浪微博
 video.h5.weibo.cn##footer
