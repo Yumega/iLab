@@ -34,11 +34,12 @@ www.bbc.com##.ejnx8uh0.ssrcss-3esohe-GlobalFooter
 www.bbc.com##.e19b3odl1.ssrcss-unpyev-Navigation
 
 ! #CNN
+cnn.com##button#headerSubscribeButton
 www.cnn.com##.SocialBar__isShare.SpecialArticle__socialTop.SocialBar__component
-www.cnn.com##.SocialBar__isShare.SpecialArticle__widthStandard.SpecialArticle__socialBottom.SocialBar__component
-www.cnn.com##.Showcase__mediaWrapper
-www.cnn.com##.Showcase__component
-www.cnn.com###footer-nav-container
+cnn.com##.SocialBar__isShare.SpecialArticle__widthStandard.SpecialArticle__socialBottom.SocialBar__component
+cnn.com##.Showcase__mediaWrapper
+cnn.com##.Showcase__component
+cnn.com###footer-nav-container
 
 ! #谷歌YOUTUBE
 @@||youtube.com^$script,domain=m.youtube.com
