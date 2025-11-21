@@ -45,7 +45,7 @@ gemini.google.com##.ng-tns-c1791137076-1.gmat-caption
 moviefone.com###content-wrapper > div.mf-adsense-leaderboard.mf-adsense-mobile-leaderboard:first-child
 
 ! #凤凰网
-||*.*^$script,domain=ifeng.com
+!#暂时放行 ||*.*^$script,domain=ifeng.com
 @@||ifengimg.com^$script,domain=ifeng.com
 news.ifeng.com##.index_swiper_HdCQZ
 news.ifeng.com##.index_link_wek7z
