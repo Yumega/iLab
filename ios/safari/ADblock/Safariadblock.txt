@@ -19,6 +19,7 @@ vox.com##.c-footer
 cn.wsj.com##.wsj-ad-disclaimer
 ! #Yahoo
 yahoo.com##.flex.size-full.items-center.justify-center.text-center.leading-3.bg-marshmallow.dark\:bg-ramones.dark\:text-grey-hair
+yahoo.com##div.pt-4.md\:pt-2.flex.items-center.overflow-x-hidden
 yahoo.com##div:has-text("Advertisement")
 
 ! #福克斯新闻
