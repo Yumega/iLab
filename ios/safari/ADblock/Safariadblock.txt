@@ -11,6 +11,7 @@
 iplark.com##a[rel="nofollow sponsored"]
 iplark.com##div[id^="irkezdr"]
 iplark.com##a[rel="sponsored nofollow"]
+scmp.com###__next .css-1n5jo2e.e1t69p6b4 header > .css-no538s.endoxya4
 
 ! #VOX
 vox.com##.tab-bar-fixed.c-tab-bar
