@@ -33,6 +33,7 @@ DOMAIN,amp-api.music.apple.com
 DOMAIN,amp-api-edge.music.apple.com
 DOMAIN,play.itunes.apple.com
 #Podcast
+DOMAIN,podcasts.apple.com
 DOMAIN,bookkeeper.itunes.apple.com
 DOMAIN,amp-api.podcasts.apple.com
 #audacy
