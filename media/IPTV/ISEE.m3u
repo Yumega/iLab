@@ -27,7 +27,7 @@ https://test96.178.indevs.in/?id=LuKwFajn37U
 http://192.168.11.1:7777/xumo/watch/99951298
 #https://fl1.moveonjoy.com/BBC_WORLD_NEWS/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/refs/heads/master/media/logo/news/msnbc.png" group-title="NEWS",MSNBC
-https://fl1.moveonjoy.com/MSNBC/index.m3u8
+https://cdn.livenewsplayer.com/hls/msnbcsd/msnbcsd/chunklist_w920904676_tkbmV3enN0YXJ0dGltZT0xNzY4ODUzNDE2Jm5ld3plbmR0aW1lPTE3Njg4NjA2MTYmbmV3emhhc2g9VExpTU01QTdwWWhWOTBFRjBtZUlhTWtVRTV0aC1TczhPNUpnR1dXRGFVd0N0NVVic0NZLTQ2WkhicEp1SWc1TkVxNlRTWWE2aTNOMG9iXzJEdVFPdEE9PQ==.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/cnnus.png" group-title="NEWS",CNN美国
 https://fl1.moveonjoy.com/CNN/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/refs/heads/master/media/logo/news/foxnews.png" group-title="NEWS",FOX新闻
