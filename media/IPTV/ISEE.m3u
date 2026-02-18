@@ -1,33 +1,32 @@
 #EXTM3U 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/fhzx.png" group-title="新闻",凤凰资讯
-https://test96.178.indevs.in/?id=fN9uYWCjQaw
+https://ytb.178.indevs.in/?id=fN9uYWCjQaw
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/tvbsnews.png" group-title="新闻",TVBS台
-https://test96.178.indevs.in/?id=o_-hSMgpAzs
+https://ytb.178.indevs.in/?id=o_-hSMgpAzs
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/ztxw.png" group-title="新闻",中天新聞
-https://test96.178.indevs.in/?id=vr3XyVCR4T0
+https://ytb.178.indevs.in/?id=vr3XyVCR4T0
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/refs/heads/master/media/logo/news/TTVNEWS.png" group-title="新闻",台視新聞
-https://test96.178.indevs.in/?id=xL0ch83RAK8
+https://ytb.178.indevs.in/?id=xL0ch83RAK8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/refs/heads/master/media/logo/news/hyxw.png" group-title="新闻",寰宇新闻
-https://test96.178.indevs.in/?id=6IquAgfvYmc
+https://ytb.178.indevs.in/?id=6IquAgfvYmc
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/refs/heads/master/media/logo/news/dsxw.png" group-title="新闻",东森新闻
-https://test96.178.indevs.in/?id=V1p33hqPrUk
+https://ytb.178.indevs.in/?id=V1p33hqPrUk
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/refs/heads/master/media/logo/news/msxw.png" group-title="新闻",民视新闻
-https://test96.178.indevs.in/?id=ylYJSBUgaMA
+https://ytb.178.indevs.in/?id=ylYJSBUgaMA
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/refs/heads/master/media/logo/news/SETLiveNEWS.png" group-title="新闻",三立新聞
-https://test96.178.indevs.in/?id=hGJkDZDchYI
+https://ytb.178.indevs.in/?id=hGJkDZDchYI
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/refs/heads/master/media/logo/news/cnni.png" group-title="NEWS",CNN国际
 https://turnerlive.warnermediacdn.com/hls/live/586497/cnngo/cnni/VIDEO_0_3564000.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/france24.png" group-title="NEWS",法国24台
-#https://test96.178.indevs.in/?id=Ap-UM1O9RBU
+#https://ytb.178.indevs.in/?id=Ap-UM1O9RBU
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/aljazeera.png" group-title="NEWS",半岛新闻
-https://test96.178.indevs.in/?id=gCNeDWCI0vo
+https://ytb.178.indevs.in/?id=gCNeDWCI0vo
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/DW.png" group-title="NEWS",德国之声
-https://test96.178.indevs.in/?id=LuKwFajn37U
+https://ytb.178.indevs.in/?id=LuKwFajn37U
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/bbc/bbc-wn_m.png" group-title="NEWS",BBC新闻
 http://192.168.11.1:7777/xumo/watch/99951298
 #https://fl1.moveonjoy.com/BBC_WORLD_NEWS/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/refs/heads/master/media/logo/news/msnbc.png" group-title="NEWS",MSNBC
-https://cdn.livenewsplayer.com/hls/msnbcsd/msnbcsd/chunklist_w920904676_tkbmV3enN0YXJ0dGltZT0xNzY4ODUzNDE2Jm5ld3plbmR0aW1lPTE3Njg4NjA2MTYmbmV3emhhc2g9VExpTU01QTdwWWhWOTBFRjBtZUlhTWtVRTV0aC1TczhPNUpnR1dXRGFVd0N0NVVic0NZLTQ2WkhicEp1SWc1TkVxNlRTWWE2aTNOMG9iXzJEdVFPdEE9PQ==.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/master/media/logo/news/cnnus.png" group-title="NEWS",CNN美国
 https://fl1.moveonjoy.com/CNN/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/Yumega/max/refs/heads/master/media/logo/news/foxnews.png" group-title="NEWS",FOX新闻
