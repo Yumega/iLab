@@ -3,6 +3,8 @@
 ||umeng.com^
 ||uc.cn^
 ||anythinktech.com^
+#推特
+x.com##a[href="/i/premium_sign_up"]
 #凤凰网
 ||c01049em.ifeng.com^
 ||bdmap1.ifeng.com^
