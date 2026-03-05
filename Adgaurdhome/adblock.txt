@@ -3,8 +3,6 @@
 ||umeng.com^
 ||uc.cn^
 ||anythinktech.com^
-#推特
-x.com##a[href="/i/premium_sign_up"]
 #凤凰网
 ||c01049em.ifeng.com^
 ||bdmap1.ifeng.com^
@@ -71,3 +69,5 @@ x.com##a[href="/i/premium_sign_up"]
 #||dns.weibo.cn^
 #||dns.weixin.qq.com^
 #||dns.weixin.qq.com.cn^
+#推特
+x.com##a[href="/i/premium_sign_up"]
