@@ -1,4 +1,5 @@
 #自定义
+DOMAIN-SUFFIX,mobads-pre-config.cdn.bcebos.com
 DOMAIN-SUFFIX,fp-it.fengkongcloud.com
 DOMAIN-SUFFIX,snssdk.irisdt.cn
 DOMAIN-SUFFIX,ipi.shuzilm.cn
