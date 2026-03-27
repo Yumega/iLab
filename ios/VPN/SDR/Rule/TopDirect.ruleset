@@ -13,6 +13,15 @@ DOMAIN-SUFFIX,datatheorem.com
 DOMAIN-SUFFIX,singular.net
 DOMAIN-SUFFIX,braze.eu
 DOMAIN-SUFFIX,wise.com
+
+#苹果地图
+DOMAIN,gspe1-ssl.ls.apple.com
+DOMAIN,gspe11-2-cn-ssl.ls.apple.com
+DOMAIN,gspe12-cn-ssl.ls.apple.com
+DOMAIN,gspe19-cn-ssl.ls.apple.com
+DOMAIN,gspe19-2-cn-ssl.ls.apple.com
+DOMAIN,gspe79-cn-ssl.ls.apple.com
+
 #Geosite,CN苹果, from https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/refs/heads/master/apple.china.conf
 DOMAIN,a1.mzstatic.com
 DOMAIN,a2.mzstatic.com
@@ -123,7 +132,6 @@ DOMAIN,mesu-cdn.apple.com.akadns.net
 DOMAIN,mesu-china.apple.com.akadns.net
 DOMAIN,mesu.apple.com
 DOMAIN,ml.cdn-apple.com
-DOMAIN,music.apple.com
 DOMAIN,ocsp-lb.apple.com.akadns.net
 DOMAIN,ocsp.apple.com
 DOMAIN,ocsp2-lb.apple.com.akadns.net
