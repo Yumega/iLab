@@ -1,5 +1,13 @@
 DOMAIN-SUFFIX,checkip.org
 DOMAIN-SUFFIX,dnsleaktest.com
+# 苹果智能
+DOMAIN,guzzoni.apple.com
+DOMAIN-SUFFIX,smoot.apple.com
+DOMAIN-SUFFIX,apple-relay.cloudflare.com
+DOMAIN-SUFFIX,apple-relay.fastly-edge.com
+DOMAIN-SUFFIX,cp4.cloudflare.com
+DOMAIN-SUFFIX,apple-relay.apple.com
+DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
 #Stirr.Pluto.TV
 DOMAIN-SUFFIX,stirr.com
 DOMAIN-SUFFIX,amagi.tv
