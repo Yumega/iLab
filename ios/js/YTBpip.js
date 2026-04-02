@@ -1,10 +1,10 @@
 // ==UserScript==
-// @name               ACT.YouTube.DM.PiP-button
-// @name:zh-CN         ACT.YouTube.DM.画中画按钮
+// @name               YouTube.PiP-button
+// @name:zh-CN         YouTube画中画按钮
 // @description        Add a PiP button to the player to easy enter Picture-in-Picture mode.
 // @description:zh-CN  为播放器添加画中画按钮，轻松进入画中画模式。
 // @author             ACTCD
-// @version            20220722.1
+// @version            2026.4.2
 // @license            GPL-3.0-or-later
 // @namespace          ACTCD/Userscripts
 // @supportURL         https://github.com/ACTCD/Userscripts#contact
@@ -103,4 +103,25 @@
                 });
                 mutation.removedNodes.forEach(node => {
                     if (node.nodeType != Node.ELEMENT_NODE) return;
-          
+                    node.classList.contains("ytp-miniplayer-button") && pip_button.remove();
+                    node.id == "player-control-overlay" && pip_button.remove();
+                });
+            }
+            if (mutation.type == 'attributes') {
+                mutation.target.nodeName == 'VIDEO' && mutation.attributeName == 'src' && pip_init(mutation.target);
+                if (mutation.target.id == "player-control-overlay" && mutation.attributeName == 'class') { // Insert PiP Button (mobile)
+                    mutation.target.classList.contains("fadein") ? document.querySelector('#player')?.append(pip_button) : pip_button.remove();
+                }
+                if (mutation.attributeName == 'class' && mutation.target == document.querySelector('.player-controls-top')?.parentNode) {
+                    mutation.target.classList.contains('player-controls-hide') ? pip_button.remove() : (
+                        document.querySelector('#player-control-overlay')?.classList.contains("fadein") && document.querySelector('#player')?.append(pip_button)
+                    );
+                }
+                if (mutation.target.id == "player" && mutation.attributeName == 'hidden') {
+                    mutation.target.hasAttribute('hidden') && (pip_button.remove(), document.exitPictureInPicture());
+                }
+            }
+        });
+    }).observe(document, { subtree: true, childList: true, attributes: true });
+
+})();
