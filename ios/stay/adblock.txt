@@ -1,0 +1,217 @@
+! Title: Safari自定义过滤
+
+! #拦截脚本
+||*.*^$script,domain=3g.163.com
+||*.*^$script,domain=theage.com.au
+||*.*^$script,domain=nbcnews.com
+||*.*^$script,domain=aljazeera.com
+||*.*^$script,domain=sbs.com.au
+
+! #iplark
+iplark.com##a[rel="nofollow sponsored"]
+iplark.com##div[id^="irkezdr"]
+iplark.com##a[rel="sponsored nofollow"]
+scmp.com###__next .css-1n5jo2e.e1t69p6b4 header > .css-no538s.endoxya4
+
+! #VOX
+vox.com##.tab-bar-fixed.c-tab-bar
+vox.com##.c-footer
+! #WSJ
+cn.wsj.com##.wsj-ad-disclaimer
+! #Yahoo
+yahoo.com##.flex.size-full.items-center.justify-center.text-center.leading-3.bg-marshmallow.dark\:bg-ramones.dark\:text-grey-hair
+yahoo.com##div.pt-4.md\:pt-2.flex.items-center.overflow-x-hidden
+yahoo.com##div:has-text("Advertisement")
+
+! #福克斯新闻
+||*.*^$script,domain=foxnews.com
+foxnews.com##.ad-container
+foxnews.com##.pre-content
+! #CNN
+cnn.com##button#headerSubscribeButton
+cnn.com##.SocialBar__isShare.SpecialArticle__socialTop.SocialBar__component
+cnn.com##.SocialBar__isShare.SpecialArticle__widthStandard.SpecialArticle__socialBottom.SocialBar__component
+cnn.com##.Showcase__mediaWrapper
+cnn.com##.Showcase__component
+cnn.com###footer-nav-container
+
+! #CNA亚洲新闻
+channelnewsasia.com##.newsletter-widget-subscription-form
+! #BBC
+bbc.com##[data-testid="main-footer"]
+
+! #谷歌YOUTUBE
+@@||youtube.com^$script,domain=m.youtube.com
+! #TMDB
+themoviedb.org##.ott_item
+themoviedb.org##.ott_item
+
+! #凤凰网
+||*.*^$script,domain=ifeng.com
+@@||ifengimg.com^$script,domain=ifeng.com
+ifeng.com##[class^="index_bottom_box_"]
+ifeng.com##div[class^="index_fixSlideBox_"]
+ifeng.com##.index_link_wek7z
+ifeng.com##div[class^="index_hot_box_"]
+ifeng.com##div[class^="index_share_box_"]
+ifeng.com##div[class^="index_ad_box_"]
+ifeng.com##div[class^="index_copyRight_"]
+ifeng.com##[class^="index_callUpBox_"]
+ifeng.com##.detailPic
+ifeng.com##html,body:style(background:none !important)
+ifeng.com##html,body:style(background:none !important)
+
+! #新浪微博
+video.h5.weibo.cn##footer
+video.h5.weibo.cn##.card-wrap
+video.h5.weibo.cn##.m-btn-text-orange.m-btn-white.m-btn
+weibo.com##div.wrap.hotrank:first-child > section.list:last-child > h1.title:first-child
+weibo.cn##.npage-bg
+weibo.cn##.m-container-max.m-bar-panel.m-tab-bar
+weibo.com##.banner
+weibo.cn##.wrap
+||ww1.sinaimg.cn.w.alikunlun.com^$script,domain=news.sina.cn
+sina.cn##.art_img_tit
+sina.cn##.j_wbrecommend_wrap.j_article_relevent.s_card
+
+! #迅雷云盘
+pan.xunlei.com##.openMobileXunlei.td-button
+pan.xunlei.com##.client-download
+pan.xunlei.com##.search-in-app
+
+! #什么值得买
+smzdm.com##div.foot-banner
+smzdm.com##.logo-download
+smzdm.com##.footer-banner-wrap
+smzdm.com##.app-position
+smzdm.com##.J_copy.btn-open-app
+smzdm.com##.footer-wrap
+
+! #品葱
+pincong.rocks##div.aw-mod:nth-of-type(1)
+pincong.rocks##div:style(background-image: none !important)
+pincong.rocks###aw-ajax-box > div.modal.fade.alert-box.aw-tips-box.in > div.modal-dialog > div.modal-content
+
+! #维基百科
+wikipedia.org###siteNotice
+wikipedia.org##td.mbox-text
+wikipedia.org###page-actions-edit
+wikipedia.org##.mw-editsection
+wikipedia.org###scrollUpButton-zhwiki
+wikipedia.org###scrollDownButton-zhwiki
+wikipedia.org##.view-border-box.cleanup
+wikipedia.org##.noprint
+wikipedia.org##.Template-Fact.noprint
+wikipedia.org##sup.Inline-Template.noprint > [href="/wiki/Wikipedia:%E5%8F%AF%E4%BE%9B%E6%9F%A5%E8%AD%89"]
+wikipedia.org##sup.noprint
+wikipedia.org###bluedeck_ding
+wikipedia.org##.ambox
+wikipedia.org##.reference
+wikipedia.org##.footer-content.post-content
+wikipedia.org###asn-dismissable-notice
+
+! #it之家
+ithome.com##div.open-app-banner
+ithome.com##.open-app
+ithome.com##.footer
+ithome.com##.hot-app
+ithome.com##.relevant-news
+ithome.com##.grade
+ithome.com##.go-top
+ithome.com##.news-footer
+
+! #简书
+||*.*^$script,domain=jianshu.com
+@@||cdn2.jianshu.io$script,domain=jianshu.com
+jianshu.com##.download-app-guidance
+jianshu.com##.call-app-btn
+jianshu.com##.header-wrap
+jianshu.com##._13lIbp
+
+! #澎湃新闻
+||*.*^$script,domain=thepaper.cn
+@@||file.thepaper.cn$script,domain=thepaper.cn
+thepaper.cn###bottomBanner
+thepaper.cn###moblink_moreread
+thepaper.cn###hotCommentsDiv
+thepaper.cn##.header_moblink
+thepaper.cn##.header_header_download__VUqb3
+thepaper.cn##.index_footer_banner__Mcr_R
+
+! #观察者网
+guancha.cn##.textPageCont-footer
+guancha.cn##.shareMain.bdsharebuttonbox
+guancha.cn##.latestNews
+guancha.cn##.newTitleMain.index-newslist
+guancha.cn##footer
+guancha.cn##div.bottomBtn:nth-of-type(6)
+guancha.cn##.specialMain
+guancha.cn##section.fengwenHot > .newTitleMain
+guancha.cn##div.bottomBtn:nth-of-type(5)
+
+! #法国24
+||*.*^$script,domain=france24.com
+@@||france24.com^$script,domain=france24.com
+@@||youtube.com^$script,domain=france24.com
+france24.com##.t-content__tags
+france24.com##.t-content__related
+france24.com##.t-content__list-content
+france24.com##.t-content__shares
+france24.com##.o-self-promo--app.o-self-promo
+france24.com##article > .t-content__related
+france24.com###data-ah2s-ios
+
+! #台湾中央社
+||*.*^$script,domain=cna.com.tw
+cna.com.tw##div.paragraph:nth-of-type(9)
+cna.com.tw##.BtnShareGroup.paragraph
+cna.com.tw##.appDownload.paragraph.jsAppDownload
+cna.com.tw##footer
+cna.com.tw##.ar_top.GrayBlock.TemasBlock
+cna.com.tw##.mySubscriptionInner.SubscriptionInner
+cna.com.tw##.mbBtnGroup
+cna.com.tw##.nextline
+cna.com.tw##div.paragraph:nth-of-type(8)
+cna.com.tw##.TopSection
+cna.com.tw##.sticky.menu
+
+! #breakingnews
+||*.*^$script,domain=breakingnews.ie
+@@||breakingnews.ie$script,domain=breakingnews.ie
+@@||ampproject.org$script,domain=breakingnews.ie
+breakingnews.ie##.md\:mb-4.md\:block.hidden
+breakingnews.ie##.relative.lg\:w-4\/12
+breakingnews.ie##.clear-left.mx-auto.relative.text-center.table.p-2.bg-gray-100
+breakingnews.ie##.mb-1.pt-4.justify-between.md\:space-y-0.space-y-4.md\:flex-row.flex-col.flex
+breakingnews.ie##.flex-1 > .gap-4.md\:grid-cols-2.grid
+breakingnews.ie##.px-8.font-bold.bg-blue-500
+breakingnews.ie##.flex.bg-gray-900.justify-center.items-center.pb-8.pt-12
+breakingnews.ie##.flex.bg-gray-900.justify-center.items-center.text-yellow-500.pb-8.py-2
+breakingnews.ie##.flex-1 > .lg\:mt-0.mt-4.mb-4.space-x-4.items-center.flex
+breakingnews.ie##.gap-4.lg\:grid-cols-3.md\:grid-cols-2.grid > .relative.justify-center.flex-col.items-center.w-full.flex.py-2.bg-gray-100
+
+! #ghacks
+ghacks.net##.comment-respond
+ghacks.net##.ghacks-sidebar
+ghacks.net###site-footer
+ghacks.net###post-author
+ghacks.net##.pt--40.mt--40.border--top--gray.the_related_part
+ghacks.net##.snippet-type-10
+
+! #必应
+bing.com###b-scopeListItem-convups
+bing.com###b_pag_chat_btn_container
+bing.com###b_results > li.b_ans
+
+! #英国卫报
+theguardian.com##header > .dcr-1xdhyk6
+theguardian.com##.dcr-173mewl
+theguardian.com##.dcr-1xyi04h
+theguardian.com##.header-top-nav__cta-bar
+theguardian.com##.immersive-header-container
+theguardian.com##.js-most-popular-footer.fc-container--has-toggle.fc-container > .fc-container__inner
+theguardian.com##.u-cf.l-footer
+theguardian.com##.dcr-1d5d3o3 > gu-island
+theguardian.com##.remote-banner.site-message--banner
+theguardian.com##.header-top-nav__logo
+theguardian.com##.header-top-nav__full-width
