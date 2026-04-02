@@ -1,0 +1,27 @@
+#自定义
+https://github.com/Yumega/max/raw/refs/heads/master/ios/stay/adblock.txt
+
+#adguard
+https://anti-ad.net/adguard.txt
+
+#brave https://github.com/brave/adblock-lists/tree/master/brave-lists
+https://raw.githubusercontent.com/brave/adblock-lists/refs/heads/master/brave-lists/brave-firstparty.txt
+https://raw.githubusercontent.com/brave/adblock-lists/master/brave-unbreak.txt
+
+#fanboy https://www.fanboy.co.nz/
+https://secure.fanboy.co.nz/fanboy-annoyance.txt
+https://www.fanboy.co.nz/fanboy-cookiemonster.txt
+
+
+#easylist
+https://raw.githubusercontent.com/easylist/easylistchina/master/easylistchina.txt
+https://anti-ad.net/easylist.txt(和adguard重复)
+https://easylist.to/easylist/easylist.txt(和adguard重复)
+
+
+#anti-adblock-killer
+https://easylist-downloads.adblockplus.org/antiadblockfilters.txt
+https://filters.adtidy.org/windows/filters/19.txt
+https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/AnnoyancesFilter/Popups/sections/antiadblock.txt
+https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/BaseFilter/sections/antiadblock.txt
+https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/BaseFilter/sections/specific.txt
