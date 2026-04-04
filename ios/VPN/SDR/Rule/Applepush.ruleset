@@ -13,7 +13,7 @@ IP-CIDR,2620:149:a44::/48,no-resolve
 IP-CIDR,2403:300:a42::/48,no-resolve
 IP-CIDR,2403:300:a51::/48,no-resolve
 IP-CIDR,2a01:b740:a42::/48,no-resolve
-IP-CIDR,17.0.0.0/8,no-resolve
+#IP-CIDR,17.0.0.0/8,no-resolve
 
 #DNS
 IP-CIDR,114.114.114.114/32,no-resolve
