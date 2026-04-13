@@ -18,8 +18,6 @@
 // @match        https://*.sky.com/*
 // @match        https://*.nbcnews.com/*
 // @match        https://*.yahoo.com/*
-// @match        https://*.zaobao.com/*
-// @match        https://*.zaobao.com.sg/*
 // @match        https://*.nytimes.com/*
 // @grant        none
 // ==/UserScript==
@@ -46,8 +44,6 @@
         'theguardian.com',
         'euronews.com',
         'sky.com',
-        'zaobao.com',
-        'zaobao.com.sg',
         'yahoo.com'
     ];
 
