@@ -5,7 +5,7 @@ IP-CIDR,172.18.0.0/24,no-resolve
 IP-CIDR,172.19.0.0/16,no-resolve
 
 #Homelab
-DOMAIN,adg.757191.xyz
+DOMAIN,agh.757191.xyz
 DOMAIN,wrt.757191.xyz
 DOMAIN,qbit.757191.xyz
 DOMAIN,hmd.757191.xyz
@@ -19,3 +19,4 @@ DOMAIN,radarr.757191.xyz
 DOMAIN,seerr.757191.xyz
 DOMAIN,read.757191.xyz
 DOMAIN,aria2.757191.xyz
+DOMAIN,homelab.757191.xyz
