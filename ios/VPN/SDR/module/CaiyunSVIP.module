@@ -1,6 +1,6 @@
-#!url=https://script.hub/file/_start_/https://raw.githubusercontent.com/chxm1023/Rewrite/main/caiyuntianqi.js/_end_/caiyuntianqi.sgmodule?type=qx-rewrite&target=shadowrocket-module&del=true&jqEnabled=true
-#!name=caiyuntianqi
-#!desc=caiyuntianqi
+#!url=https://raw.githubusercontent.com/Yumega/iLab/refs/heads/master/ios/VPN/SDR/module/CaiyunSVIP.module
+#!name=彩云SVIP
+#!desc=彩云SVIP
 
 [Rule]
 DOMAIN,gather.colorfulclouds.net,REJECT
