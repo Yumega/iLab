@@ -1,0 +1,20 @@
+#!name=阅读模式
+#!desc=自动跳转阅读模式
+
+[URL Rewrite]
+^https?:\/\/(www\.)?channelnewsasia\.com\/([^\/]+\/)+[^\/]*[a-zA-Z][^\/]*-\d+\/?$ http://192.168.11.2:8080/get?url=$0&engine=&format=html 302
+
+^https?:\/\/(www\.)?zaobao\.com(\.sg)?\/news\/.*\/story\d+-\d+.* http://192.168.11.2:8080/get?url=$0&engine=&format=html 302
+
+^https?:\/\/(www\.)?apnews\.com\/[^\/]+\/[^\/]*\d+[^\/]*\/?$ http://192.168.11.2:8080/get?url=$0&engine=&format=html 302
+
+^https?:\/\/(www\.)?macrumors\.com\/\d{4}\/\d{2}\/\d{2}\/.* http://192.168.11.2:8080/get?url=$0&engine=&format=html 302
+
+^https?:\/\/cn\.nytimes\.com\/.*\/\d{8}\/.* http://192.168.11.2:8080/get?url=$0&engine=&format=html 302
+
+^https?:\/\/cnnews\.chosun\.com\/client\/news\/viw\.asp\?.*nNewsNumb=\d+.* http://192.168.11.2:8080/get?url=$0&engine=&format=html 302
+
+#^https?:\/\/cnnews\.chosun\.com\/client\/news\/viw\.asp\?.*nNewsNumb=\d{6,}.* http://192.168.11.2:8080/get?url=$0&engine=&format=html 302
+
+[MITM]
+hostname = %APPEND% *.macrumors.com,*.nytimes.com,cnnews.chosun.com,*.zaobao.com,*.zaobao.com.sg,*.channelnewsasia.com,apnews.com
