@@ -1,3 +1,0 @@
-将外观配置的文件放入
-
-C:\Users\CNMax\AppData\Roaming\mpv
