@@ -1,1 +1,0 @@
-netstat -ltnp | grep 8080 

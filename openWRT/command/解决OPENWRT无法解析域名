@@ -1,3 +1,0 @@
-使用2条命令
-rm /etc/resolv.conf
-ln -s /tmp/resolv.conf.auto /etc/resolv.conf
