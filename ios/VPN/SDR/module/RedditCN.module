@@ -1,0 +1,7 @@
+#!name=Reddit翻译
+#!desc=自动开启Reddit翻译为中文功能
+[Script]
+main = type=http-request, pattern=^https?:\/\/gql(-fed)?\.reddit\.com, script-path=https://raw.githubusercontent.com/Yumega/iLab/refs/heads/master/ios/VPN/SDR/js/redditCN.js, timeout=60
+
+[MITM]
+hostname = %APPEND% gql.reddit.com, gql-fed.reddit.com
