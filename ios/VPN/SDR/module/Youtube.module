@@ -1,7 +1,6 @@
 #!url=https://raw.githubusercontent.com/Yumega/iLab/refs/heads/master/ios/VPN/SDR/module/Youtube.module
-#!name=YouTube Premium
-#!desc=Youtube Ad Full blocker with PIP player
-
+#!name=YouTube
+#!desc=Youtube去广告
 [Rule]
 AND,((DOMAIN-SUFFIX,googlevideo.com), (PROTOCOL,UDP)),REJECT
 AND,((DOMAIN,youtubei.googleapis.com), (PROTOCOL,UDP)),REJECT
