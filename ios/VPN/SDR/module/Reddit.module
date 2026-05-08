@@ -1,5 +1,5 @@
-#!name=RedditAds
-#!desc=RedditAds
+#!name=Reddit
+#!desc=Reddit去广告
 
 [Script]
 reddit = type=http-response, pattern=^https?:\/\/gql-fed\.reddit\.com\/$, script-path=https://raw.githubusercontent.com/Yumega/iLab/refs/heads/master/ios/VPN/SDR/js/reddit.js, requires-body=true, max-size=-1, timeout=60
