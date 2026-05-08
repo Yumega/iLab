@@ -1,5 +1,5 @@
 #!name=Spotify
-#!desc=Spotify
+#!desc=Spotify去广告
 
 [Script]
 spotify-qx-header = type=http-request, pattern=^https?:\/\/[a-zA-Z0-9._-]+\.spotify\.com(:\d+)?\/user-customization-service\/v\d\/customize$, script-path=https://raw.githubusercontent.com/Yumega/iLab/refs/heads/master/ios/VPN/SDR/js/spotify-qx-header.js, timeout=60
