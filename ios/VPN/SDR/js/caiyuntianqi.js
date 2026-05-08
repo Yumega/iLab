@@ -45,7 +45,7 @@ if (typeof $response == "undefined") {
   }
   //添加一个哆啦A梦
   if (/features|homefeatures/.test(url)) {
-    chxm1023["data"] = [{  "badge_type" : "",  "title" : "叮当猫",  "url" : "https://t.me/chxm1023",  "feature_type" : "",  "avatar" : "https://raw.githubusercontent.com/chxm1023/Script_X/main/icon/ddm2.png"  },...chxm1023.data];
+    chxm1023["data"] = [{  "badge_type" : "",  "title" : "叮当猫",  "url" : "https://t.me",  "feature_type" : "",  "avatar" : "https://raw.githubusercontent.com/chxm1023/Script_X/main/icon/ddm2.png"  },...chxm1023.data];
   }
   chxm1024.body = JSON.stringify(chxm1023);
 }
