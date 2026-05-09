@@ -19,5 +19,5 @@ http:
       timeout: 60
 script-providers:
   "blued_3":
-    url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/blued.js
+    url: https://raw.githubusercontent.com/Yumega/iLab/refs/heads/master/ios/VPN/stash/overRide/js/blued.js
     interval: 86400
