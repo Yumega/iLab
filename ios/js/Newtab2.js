@@ -4,9 +4,11 @@
 // @description  Make all links open in a new tab
 // @author       Max
 // @match        https://*.scmp.com/*
-// @match        https://edition.cnn.com/*
-// @match        https://www.nbcnews.com/* 
-// @match        https://www.google.com/search?*  
+// @match        *://*.bbc.com/*
+// @match        https://*.zaobao.com/*
+// @match        https://*.zaobao.com.sg/* 
+// @match        https://www.gdqy.gov.cn/*
+// @match        https://search.gd.gov.cn/*  
 // @match        https://selfh.st/*
 // @grant        none
 // @updateURL    https://raw.githubusercontent.com/Yumega/max/refs/heads/master/ios/js/Newtab2.js
