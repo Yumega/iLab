@@ -4,8 +4,6 @@
 // @description  所有链接在新标签页打开（平衡版）
 // @author       Max
 // @match        https://*.scmp.com/*
-// @match        https://www.gdqy.gov.cn/*
-// @match        https://search.gd.gov.cn/*
 // @match        https://selfh.st/*
 // @grant        none
 // @run-at       document-start
