@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         在新标签页打开链接2.0
-// @version      25.11.22
+// @version      26.5.13
 // @description  Make all links open in a new tab
 // @author       Max
 // @match        https://*.scmp.com/*
