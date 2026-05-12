@@ -27,7 +27,7 @@
 (function () {
     'use strict';
 
-    const proxyBase = "http://192.168.11.1:8686/get?url=";
+    const proxyBase = "http://192.168.11.2:8080/get?url=";
 
     const supportedDomains = [
         'ifeng.com',
