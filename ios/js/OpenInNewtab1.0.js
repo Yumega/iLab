@@ -1,19 +1,11 @@
 // ==UserScript==
-// @name           新标签页打开链接
+// @name           新标签页打开链接1.0
 // @description    open links in new tab
-// @match          https://www.google.com/search?*
-// @match          *://*.reddit.com/r/*
-// @match          *://*.cnn.com/*
-// @match          *://*.politico.eu/*
-// @match          *://*.bbc.com/*
-// @match          *://*.economist.com/*
-// @match          *://*.sky.com/*
-// @match          *://*.euronews.com/*
-// @match          *://*.channelnewsasia.com/*
-// @match          *://*.nbcnews.com/*
-// @match          *://*.wsj.com/*
+#// @match       https://www.google.com/search?*
+// @match        https://*.zaobao.com/*
+// @match        https://*.zaobao.com.sg/* 
 // @author         max
-// @version        25.7.22
+// @version        26.5.13
 // @grant          none
 // @updateURL      https://raw.githubusercontent.com/Yumega/max/refs/heads/master/ios/js/OpenInNewtab.js
 // ==/UserScript==
