@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         链接替换为txtdot（平衡优化版）
 // @namespace    http://tampermonkey.net/
-// @version      26.5.16
+// @version      26.5.13
 // @description  替换新闻站链接为代理地址（高性能平衡版）
 // @match        https://*.ifeng.com/*
 // @match        https://*.qq.com/*
