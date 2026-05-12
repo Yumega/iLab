@@ -9,7 +9,7 @@
 // @match        https://search.gd.gov.cn/*  
 // @match        https://selfh.st/*
 // @grant        none
-// @updateURL    https://raw.githubusercontent.com/Yumega/max/refs/heads/master/ios/js/Newtab2.js
+// @updateURL    https://raw.githubusercontent.com/Yumega/iLab/refs/heads/master/ios/js/OpenInNewtab2.0.js
 // ==/UserScript==
 
 (function() {
