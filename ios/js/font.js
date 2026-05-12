@@ -4,7 +4,7 @@
 // @version      25.11.21
 // @description  Render font for ios
 // @author       Font
-// @match        *://**/*
+// @match        *://*/*
 // @grant        none
 // @run-at       document-start
 // ==/UserScript==
