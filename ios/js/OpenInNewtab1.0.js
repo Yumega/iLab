@@ -7,7 +7,7 @@
 // @author         max
 // @version        26.5.13
 // @grant          none
-// @updateURL      https://raw.githubusercontent.com/Yumega/max/refs/heads/master/ios/js/OpenInNewtab.js
+// @updateURL      https://raw.githubusercontent.com/Yumega/iLab/refs/heads/master/ios/js/OpenInNewtab1.0.js
 // ==/UserScript==
 
 (function() {
