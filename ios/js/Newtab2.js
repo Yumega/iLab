@@ -1,12 +1,10 @@
 // ==UserScript==
 // @name         在新标签页打开链接2.0
 // @version      26.5.13
-// @description  Make all links open in a new tab
+// @description  all links open in a new tab
 // @author       Max
 // @match        https://*.scmp.com/*
 // @match        *://*.bbc.com/*
-// @match        https://*.zaobao.com/*
-// @match        https://*.zaobao.com.sg/* 
 // @match        https://www.gdqy.gov.cn/*
 // @match        https://search.gd.gov.cn/*  
 // @match        https://selfh.st/*
