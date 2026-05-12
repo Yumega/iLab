@@ -4,7 +4,6 @@
 // @description  all links open in a new tab
 // @author       Max
 // @match        https://*.scmp.com/*
-// @match        *://*.bbc.com/*
 // @match        https://www.gdqy.gov.cn/*
 // @match        https://search.gd.gov.cn/*  
 // @match        https://selfh.st/*
