@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         链接替换为txtdot
+// @name         链接替换为txtdot（平衡优化版）
 // @namespace    http://tampermonkey.net/
-// @version      26.5.13
-// @description  替换新闻站链接为代理地址，仅替换文章页（路径层级≥2），排除视频/列表等非文章链接
+// @version      26.5.16
+// @description  替换新闻站链接为代理地址（高性能平衡版）
 // @match        https://*.ifeng.com/*
 // @match        https://*.qq.com/*
 // @match        https://*.sina.com.cn/*
@@ -12,7 +12,7 @@
 // @match        https://*.cnn.com/*
 // @match        https://*.bbc.com/*
 // @match        https://*.foxnews.com/*
-// @match        https://*.zaobao.com/* 
+// @match        https://*.zaobao.com/*
 // @match        https://*.zaobao.com.sg/*
 // @match        https://*.channelnewsasia.com/*
 // @match        https://*.theguardian.com/*
@@ -22,12 +22,13 @@
 // @match        https://*.yahoo.com/*
 // @match        https://*.nytimes.com/*
 // @grant        none
+// @run-at       document-start
 // ==/UserScript==
 
 (function () {
     'use strict';
 
-    const proxyBase = "http://192.168.11.2:8080/get?url=";
+    const proxyBase = 'http://192.168.11.2:8080/get?url=';
 
     const supportedDomains = [
         'ifeng.com',
@@ -42,7 +43,7 @@
         'nbcnews.com',
         'nytimes.com',
         'zaobao.com',
-        'zaobao.com.sg', 
+        'zaobao.com.sg',
         'channelnewsasia.com',
         'foxnews.com',
         'theguardian.com',
@@ -51,7 +52,6 @@
         'yahoo.com'
     ];
 
-    // 正则排除的路径模式
     const exclusionPatterns = [
         /:\/\/gentie\.ifeng\.com/,
         /:\/\/xw\.qq\.com\/m\/video/,
@@ -62,80 +62,84 @@
         /:\/\/[^/]*cnn\.com\/.*\/video\//,
         /:\/\/[^/]*theguardian\.com\/.*\/gallery\//,
         /:\/\/[^/]*foxnews\.com\/video\//,
-        /:\/\/[^/]*nbcnews\.com\/news\/(china|africa|asia|europe)/,
-        /:\/\/[^/]*nbcnews\.com\/world\/russia-ukraine-news/,
-        /:\/\/[^/]*nbcnews\.com\/video\//,
         /:\/\/[^/]*nbcnews\.com\/.*\/video\//,
-        /:\/\/[^/]*euronews\.com\/tag\//,
         /:\/\/[^/]*euronews\.com\/video\//,
-        /:\/\/podcasts\.euronews\.com\//,
         /:\/\/news\.sky\.com\/video\//,
-        /:\/\/www\.foxnews\.com\/category\//,
-        /:\/\/[^/]*yahoo\.com\/news\/(us|politics|science|world|weather-news)\//,
-        /:\/\/[^/]*yahoo\.com\/guides\/originals\//,
         /:\/\/www\.bbc\.com\/news\/videos\//
     ];
 
     function isExcluded(url) {
-        return exclusionPatterns.some(pattern => pattern.test(url));
+        return exclusionPatterns.some(p => p.test(url));
     }
 
     function shouldReplace(href, baseUrl) {
         if (!href) return false;
 
         try {
-            let url = null;
+            let url;
 
             if (href.startsWith('/')) {
                 url = new URL(href, baseUrl);
-            } else if (href.startsWith('https://')) {
+            } else if (href.startsWith('http')) {
                 url = new URL(href);
             } else {
                 return false;
             }
 
-            const isSupported = supportedDomains.some(domain => url.hostname.endsWith(domain));
-            const pathDepth = url.pathname.split('/').filter(Boolean).length;
-            const isDeepPath = pathDepth >= 2;
-            const fullUrl = url.href;
+            const isSupported = supportedDomains.some(d => url.hostname.endsWith(d));
+            const depth = url.pathname.split('/').filter(Boolean).length;
 
-            return url.protocol === 'https:' &&
-                   isSupported &&
-                   isDeepPath &&
-                   !isExcluded(fullUrl);
-
-        } catch (e) {
+            return (
+                url.protocol === 'https:' &&
+                isSupported &&
+                depth >= 2 &&
+                !isExcluded(url.href)
+            );
+        } catch {
             return false;
         }
     }
 
-    function replaceLinks(context = document) {
-        const links = context.querySelectorAll('a[href]');
-        links.forEach(link => {
-            const href = link.getAttribute('href');
-            if (shouldReplace(href, location.origin)) {
-                const absoluteUrl = new URL(href, location.origin).href;
-                link.setAttribute('href', proxyBase + encodeURIComponent(absoluteUrl));
-                link.setAttribute('target', '_blank');  // Add this line to open in new tab
-            }
-        });
+    function processLink(link) {
+        if (!link || link.dataset.txtdot === '1') return;
+
+        const href = link.getAttribute('href');
+        if (!shouldReplace(href, location.origin)) return;
+
+        const absoluteUrl = new URL(href, location.origin).href;
+
+        // 防止重复代理（关键优化）
+        if (absoluteUrl.startsWith(proxyBase)) return;
+
+        link.href = proxyBase + encodeURIComponent(absoluteUrl);
+        link.target = '_blank';
+        link.dataset.txtdot = '1';
     }
 
-    // 初始处理
-    replaceLinks();
+    function processRoot(root = document) {
+        root.querySelectorAll('a[href]:not([data-txtdot])')
+            .forEach(processLink);
+    }
 
-    // 监听动态变化
-    const observer = new MutationObserver(mutations => {
-        mutations.forEach(mutation => {
-            mutation.addedNodes.forEach(node => {
-                if (node.nodeType === 1) {
-                    replaceLinks(node);
+    // 初始扫描
+    processRoot();
+
+    // 增量监听（轻量版）
+    const observer = new MutationObserver((mutations) => {
+        for (const m of mutations) {
+            for (const node of m.addedNodes) {
+                if (node.nodeType !== 1) continue;
+
+                if (node.tagName === 'A') {
+                    processLink(node);
+                } else {
+                    processRoot(node);
                 }
-            });
-        });
+            }
+        }
     });
 
-    observer.observe(document.body, {
+    observer.observe(document.documentElement, {
         childList: true,
         subtree: true
     });
