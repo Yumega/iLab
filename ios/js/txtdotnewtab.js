@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         链接替换为txtdot
 // @namespace    http://tampermonkey.net/
-// @version      26.3.5
+// @version      26.5.13
 // @description  替换新闻站链接为代理地址，仅替换文章页（路径层级≥2），排除视频/列表等非文章链接
 // @match        https://*.ifeng.com/*
 // @match        https://*.qq.com/*
@@ -12,6 +12,8 @@
 // @match        https://*.cnn.com/*
 // @match        https://*.bbc.com/*
 // @match        https://*.foxnews.com/*
+// @match        https://*.zaobao.com/* 
+// @match        https://*.zaobao.com.sg/*
 // @match        https://*.channelnewsasia.com/*
 // @match        https://*.theguardian.com/*
 // @match        https://*.euronews.com/*
@@ -39,6 +41,8 @@
         'cnn.com',
         'nbcnews.com',
         'nytimes.com',
+        'zaobao.com',
+        'zaobao.com.sg', 
         'channelnewsasia.com',
         'foxnews.com',
         'theguardian.com',
