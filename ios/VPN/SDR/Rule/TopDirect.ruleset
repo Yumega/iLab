@@ -1,8 +1,3 @@
-#ddns
-DOMAIN,activity.757191.xyz
-DOMAIN,bestprice.757191.xyz
-DOMAIN-SUFFIX,757191.xyz
-
 #WiFi连通性检查
 DOMAIN,captive.apple.com
 
