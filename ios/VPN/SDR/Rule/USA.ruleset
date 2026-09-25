@@ -1,5 +1,4 @@
 DOMAIN-SUFFIX,checkip.org
-DOMAIN-SUFFIX,dnsleaktest.com
 
 # 苹果智能
 DOMAIN,guzzoni.apple.com
@@ -39,16 +38,8 @@ DOMAIN-SUFFIX,llnwi.net
 DOMAIN-SUFFIX,tubi.video
 DOMAIN-SUFFIX,klowdtv.net
 DOMAIN-SUFFIX,sinclairstoryline.com
-DOMAIN-SUFFIX,amazonaws.com
-DOMAIN-SUFFIX,amazontrust.com
 DOMAIN-SUFFIX,hwcdn.net
 DOMAIN-SUFFIX,pluto.tv
 DOMAIN-SUFFIX,plutotv.net
-DOMAIN-SUFFIX,xumo.com
 DOMAIN-SUFFIX,uplynk.com
-DOMAIN-SUFFIX,cbsnews.com
-DOMAIN-SUFFIX,nbcuni.com
-DOMAIN-SUFFIX,cloudfront.net
-DOMAIN-SUFFIX,akamaized.net
 DOMAIN-SUFFIX,mizhls.ru
-DOMAIN-KEYWORD,cnn-cnninternational-1-eu.rakuten.wurl.tv
