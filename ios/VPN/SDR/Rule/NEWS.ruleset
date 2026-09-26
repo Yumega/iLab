@@ -4,11 +4,7 @@ DOMAIN-SUFFIX,youtu.be
 DOMAIN-SUFFIX,googlevideo.com
 DOMAIN-SUFFIX,ytimg.com
 #News
-DOMAIN,ipinfo.io
-DOMAIN,browserleaks.com
-DOMAIN,browserleaks.org
-DOMAIN-SUFFIX,dns6.browserleaks.org
-DOMAIN-SUFFIX,dns4.browserleaks.org
+DOMAIN,checkip.org
 DOMAIN-SUFFIX,theguardian.com
 DOMAIN-SUFFIX,zaobao.com.sg
 DOMAIN-SUFFIX,zaobao.com
