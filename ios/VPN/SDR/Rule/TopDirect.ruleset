@@ -1,6 +1,7 @@
 #WiFi连通性检查
 DOMAIN,captive.apple.com
-
+# Siri
+DOMAIN,guzzoni.apple.com
 #局域网
 DOMAIN-SUFFIX,ipv4only.arpa
 DOMAIN-SUFFIX,ip6.arpa
