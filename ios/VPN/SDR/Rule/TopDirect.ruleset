@@ -20,7 +20,6 @@ DOMAIN,doh.360.cn
 #VPS
 DOMAIN-SUFFIX,jjcruises.com
 DOMAIN-SUFFIX,portablesubmarines.com
-DOMAIN-SUFFIX,cloudflare-ech.com
 
 #APN，苹果推送通知
 DOMAIN-SUFFIX,push.apple.com
