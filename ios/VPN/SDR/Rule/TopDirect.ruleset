@@ -11,7 +11,6 @@ DOMAIN-SUFFIX,in-addr.arpa
 DOMAIN-SUFFIX,orvibo.com
 DOMAIN-SUFFIX,ys7.com
 DOMAIN-SUFFIX,ictun.com
-
 #CN.dns
 DOMAIN,dns.alidns.com
 DOMAIN,doh.pub
@@ -37,21 +36,6 @@ IP-CIDR,2620:149:a44::/48,no-resolve
 IP-CIDR,2403:300:a42::/48,no-resolve
 IP-CIDR,2403:300:a51::/48,no-resolve
 IP-CIDR,2a01:b740:a42::/48,no-resolve
-
-#抖音
-DOMAIN-SUFFIX,bytednsdoc.com
-DOMAIN-SUFFIX,zjcdn.com
-DOMAIN-SUFFIX,amemv.com
-DOMAIN-SUFFIX,douyincdn.com
-DOMAIN-SUFFIX,douyinpic.com
-DOMAIN-SUFFIX,douyinstatic.com
-DOMAIN-SUFFIX,douyinvod.com
-DOMAIN-SUFFIX,idouyinvod.com
-DOMAIN-SUFFIX,ixigua.com
-DOMAIN-SUFFIX,ixiguavideo.com
-DOMAIN-SUFFIX,pstatp.com
-DOMAIN-SUFFIX,snssdk.com
-DOMAIN-SUFFIX,toutiao.com
 
 #DNS
 IP-CIDR,114.114.114.114/32,no-resolve
