@@ -39,8 +39,8 @@ IP-CIDR,2403:300:a51::/48,no-resolve
 IP-CIDR,2a01:b740:a42::/48,no-resolve
 
 #抖音
-DOMAIN,lf3-static.bytednsdoc.com
-DOMAIN,v5-dy-o-abtest.zjcdn.com
+DOMAIN-SUFFIX,bytednsdoc.com
+DOMAIN-SUFFIX,zjcdn.com
 DOMAIN-SUFFIX,amemv.com
 DOMAIN-SUFFIX,douyincdn.com
 DOMAIN-SUFFIX,douyinpic.com
@@ -63,3 +63,18 @@ IP-CIDR,119.29.29.29/32,no-resolve
 IP-CIDR,180.76.76.76/32,no-resolve
 IP-CIDR,180.184.1.1/32,no-resolve
 
+#腾讯系
+IP-CIDR,101.32.104.4/32,no-resolve
+IP-CIDR,101.32.104.41/32,no-resolve
+IP-CIDR,101.32.104.56/32,no-resolve
+IP-CIDR,101.32.118.25/32,no-resolve
+IP-CIDR,101.32.133.16/32,no-resolve
+IP-CIDR,101.32.133.209/32,no-resolve
+IP-CIDR,101.32.133.53/32,no-resolve
+IP-CIDR,103.238.16.0/23,no-resolve
+IP-CIDR,103.7.28.0/22,no-resolve
+IP-CIDR,129.226.107.244/32,no-resolve
+IP-CIDR,129.226.3.47/32,no-resolve
+
+#字节系
+IP-CIDR,114.246.10.65/32,no-resolve
