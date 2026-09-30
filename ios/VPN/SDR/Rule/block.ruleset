@@ -13,12 +13,12 @@ DOMAIN,sofire.baidu.com
 DOMAIN,open.e.kuaishou.cn
 DOMAIN,open.e.kuaishou.com
 DOMAIN,gdfp.gifshow.com
+DOMAIN,mssdk.volces.com
+DOMAIN,tdid.m.qq.com
 DOMAIN,gromore.pangolin-sdk-toutiao.com
 DOMAIN,sf3-fe-tos.pglstatp-toutiao.com
 DOMAIN,log-api.pangolin-sdk-toutiao.com
-DOMAIN,mssdk.volces.com
-DOMAIN,tdid.m.qq.com
-DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao
+DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao.com
 DOMAIN-SUFFIX,mobads-pre-config.cdn.bcebos.com
 DOMAIN-SUFFIX,fp-it.fengkongcloud.com
 DOMAIN-SUFFIX,snssdk.irisdt.cn
