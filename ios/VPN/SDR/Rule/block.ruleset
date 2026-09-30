@@ -1,13 +1,15 @@
 #自定义
 IP-CIDR,119.29.29.88/32,no-resolve
 IP-CIDR,119.29.29.90/32,no-resolve
+DOMAIN,is.snssdk.com
+DOMAIN,abtest-ch.snssdk.com
+DOMAIN,dig.bdurl.net
 DOMAIN-SUFFIX,gepush.com
 DOMAIN-SUFFIX,getui.net
 DOMAIN-SUFFIX,bugly.qq.com
 DOMAIN-SUFFIX,gdt.qq.com
 DOMAIN-SUFFIX,e.qq.com
 DOMAIN-SUFFIX,uyunad.com
-DOMAIN,dig.bdurl.net
 DOMAIN,blued.irisdt.cn
 DOMAIN,fp-it.fengkongcloud.com
 DOMAIN,sofire.baidu.com
