@@ -1,9 +1,6 @@
 #自定义
 IP-CIDR,119.29.29.88/32,no-resolve
 IP-CIDR,119.29.29.90/32,no-resolve
-DOMAIN,is.snssdk.com
-DOMAIN,abtest-ch.snssdk.com
-DOMAIN,dig.bdurl.net
 DOMAIN-SUFFIX,gepush.com
 DOMAIN-SUFFIX,getui.net
 DOMAIN-SUFFIX,bugly.qq.com
@@ -17,7 +14,13 @@ DOMAIN,open.e.kuaishou.cn
 DOMAIN,open.e.kuaishou.com
 DOMAIN,gdfp.gifshow.com
 DOMAIN,mssdk.volces.com
+DOMAIN,toblog.ctobsnssdk.com
 DOMAIN,tdid.m.qq.com
+DOMAIN,is.snssdk.com
+DOMAIN,abtest-ch.snssdk.com
+DOMAIN,dig.bdurl.net
+DOMAIN,api-access.pangolin-sdk-toutiao1.com
+DOMAIN,log-api.pangolin-sdk-toutiao-b.com
 DOMAIN,gromore.pangolin-sdk-toutiao.com
 DOMAIN,sf3-fe-tos.pglstatp-toutiao.com
 DOMAIN,log-api.pangolin-sdk-toutiao.com
