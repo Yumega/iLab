@@ -1,4 +1,6 @@
 #自定义
+IP-CIDR,119.29.29.88/32,no-resolve
+IP-CIDR,119.29.29.90/32,no-resolve
 DOMAIN-SUFFIX,gepush.com
 DOMAIN-SUFFIX,getui.net
 DOMAIN-SUFFIX,bugly.qq.com
