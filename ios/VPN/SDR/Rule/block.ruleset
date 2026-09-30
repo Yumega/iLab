@@ -16,7 +16,7 @@ DOMAIN,sf3-fe-tos.pglstatp-toutiao.com
 DOMAIN,log-api.pangolin-sdk-toutiao.com
 DOMAIN,mssdk.volces.com
 DOMAIN,tdid.m.qq.com
-DOMAIN-KEYWORD,api-access.pangolin-sdk-toutiao
+DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao
 DOMAIN-SUFFIX,mobads-pre-config.cdn.bcebos.com
 DOMAIN-SUFFIX,fp-it.fengkongcloud.com
 DOMAIN-SUFFIX,snssdk.irisdt.cn
