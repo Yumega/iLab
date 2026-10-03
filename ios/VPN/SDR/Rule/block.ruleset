@@ -22,6 +22,7 @@ DOMAIN,mon.zijieapi.com,pre-matching
 DOMAIN,is.snssdk.com,pre-matching
 DOMAIN,abtest-ch.snssdk.com,pre-matching
 DOMAIN,dig.bdurl.net,pre-matching
+DOMAIN,api-access.pangolin-sdk-toutiao-b.com,pre-matching
 DOMAIN,api-access.pangolin-sdk-toutiao1.com,pre-matching
 DOMAIN,log-api.pangolin-sdk-toutiao-b.com,pre-matching
 DOMAIN,gromore.pangolin-sdk-toutiao.com,pre-matching
